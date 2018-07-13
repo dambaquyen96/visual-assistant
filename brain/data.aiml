@@ -1,0 +1,84 @@
+﻿<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>ha ha ha</pattern>
+        <template>
+                Một hai ba bốn năm sáu bảy tám chín mười
+        </template>
+    </category>
+    <category>
+        <pattern>XIN CHÀO</pattern>
+        <template>
+            <random>
+                <li>Xin chào</li>
+                <li>What's up man</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>*CHÀO*</pattern>
+        <template>
+            <random>
+                <li>Xin chào!!!</li>
+                <li>What's up man</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* XIN CHÀO *</pattern>
+        <template>
+            <random>
+                <li>Xin chào!!!</li>
+                <li>What's up man</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TÊN TÔI LÀ *</pattern>
+        <template>
+            Xin chào <star></star>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TÊN MÌNH LÀ *</pattern>
+        <template>
+            Xin chào <star></star>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CÓ BÉO KHÔNG</pattern>
+        <template>
+            <random>
+                <li>béo kinh</li>
+                <li>hơi béo</li>
+                <li>gầy đét đèn đẹt</li>
+                <li>dáng chuẩn</li>
+                <li>ăn không khí đi</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TẠM BIỆT *</pattern>
+        <template>
+            tạm biệt
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <random>
+                <li>La la la</li>
+                <li>trời đẹp quá</li>
+                <li>một con vị</li>
+                <li>nói linh tinh gì đấy</li>
+                <li>xàm</li>
+            </random>
+        </template>
+    </category>
+</aiml>
